@@ -1,4 +1,4 @@
 {
-  "payload": "{\"schema\":1,\"min_version\":\"0.0.0\",\"blocked_versions\":[],\"issued_at\":1794649243,\"expires_at\":1795254043,\"reason\":\"\",\"update_url\":\"https://github.com/KaanAlper/Dimenced/releases/latest\"}",
-  "sig": "bd214645b2711b303248d6fd96cdd2fe8965fde2110fa400419328b164b067215715fd04c2e53d9929488794ed17400e7f86dc85913c04f9920425b55d85a909"
+  "payload": "{\"schema\":1,\"min_version\":\"0.0.0\",\"blocked_versions\":[],\"issued_at\":1794677108,\"expires_at\":1795281908,\"reason\":\"\",\"update_url\":\"https://github.com/KaanAlper/Dimenced/releases/latest\"}",
+  "sig": "d0d7bc7ec691af53fc7e740efa55abff56bdcae91c936b3a7ae0ee128ada425710107c12a5abaa8763a7ae9f39903c9ce11dac212153bcf39b943b351e9f2104"
 }
