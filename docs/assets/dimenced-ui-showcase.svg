@@ -1,0 +1,341 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 740" width="100%" height="100%">
+  <defs>
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E6D8BC"/>
+      <stop offset="100%" stop-color="#D4C3A3"/>
+    </linearGradient>
+    <linearGradient id="cardPaper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF3E3"/>
+      <stop offset="100%" stop-color="#F1E5CC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Paper Background -->
+  <rect x="0" y="0" width="1280" height="740" rx="12" fill="url(#canvasBg)" stroke="#1F1A17" stroke-width="3"/>
+
+  <g opacity="0.42">
+    <line x1="635.7" y1="374.3" x2="451.4" y2="472.5" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="635.7" y1="374.3" x2="872.7" y2="435.7" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="653.1" y1="378.8" x2="470.5" y2="479.4" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="623.2" y1="381.0" x2="862.7" y2="444.6" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="670.8" y1="383.4" x2="490.1" y2="486.6" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="610.1" y1="387.9" x2="852.3" y2="453.8" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="689.0" y1="388.1" x2="510.2" y2="493.9" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="596.7" y1="395.1" x2="841.5" y2="463.5" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="707.5" y1="392.9" x2="530.9" y2="501.4" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="582.8" y1="402.5" x2="830.2" y2="473.4" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="726.5" y1="397.8" x2="552.2" y2="509.2" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="568.4" y1="410.2" x2="818.5" y2="483.8" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="746.0" y1="402.8" x2="574.2" y2="517.2" stroke="#9B3B2B" stroke-width="1.6"/>
+    <line x1="553.5" y1="418.1" x2="806.3" y2="494.7" stroke="#4A6B41" stroke-width="1.6"/>
+    <line x1="765.8" y1="408.0" x2="596.8" y2="525.4" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="538.0" y1="426.3" x2="793.5" y2="506.0" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="786.2" y1="413.3" x2="620.1" y2="533.9" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="522.0" y1="434.9" x2="780.2" y2="517.8" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="807.1" y1="418.7" x2="644.1" y2="542.7" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="505.3" y1="443.8" x2="766.3" y2="530.1" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="828.4" y1="424.2" x2="668.8" y2="551.7" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="488.0" y1="453.0" x2="751.8" y2="543.0" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="850.3" y1="429.9" x2="694.4" y2="561.0" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="470.1" y1="462.5" x2="736.6" y2="556.4" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="872.7" y1="435.7" x2="720.7" y2="570.6" stroke="#6A5847" stroke-width="0.8"/>
+    <line x1="451.4" y1="472.5" x2="720.7" y2="570.6" stroke="#6A5847" stroke-width="0.8"/>
+  </g>
+  <polygon points="587.0,428.2 762.6,481.5 769.0,325.3 581.9,285.9" fill="#B58934" fill-opacity="0.16" stroke="#B58934" stroke-width="2"/>
+  <polygon points="565.7,452.9 714.2,500.9 716.9,360.0 559.8,322.6" fill="#9B3B2B" fill-opacity="0.14" stroke="#9B3B2B" stroke-width="2" stroke-dasharray="6,4"/>
+  <path d="M 753.0,396.2 L 752.9,392.3 L 752.2,388.2 L 751.0,384.1 L 749.2,380.0 L 746.9,375.8 L 744.2,371.8 L 740.9,367.8 L 737.3,364.0 L 733.2,360.4 L 728.9,357.0 L 724.2,353.9 L 719.3,351.0 L 714.2,348.5 L 708.9,346.4 L 703.6,344.6 L 698.3,343.1 L 693.0,342.1 L 687.8,341.5 L 682.7,341.2 L 677.8,341.4 L 673.1,342.0 L 668.7,342.9 L 664.6,344.2 L 660.8,345.9 L 657.4,347.8 L 654.5,350.1 L 651.9,352.7 L 649.8,355.6 L 648.2,358.7 L 647.0,362.0 L 646.3,365.4 L 646.1,369.1" fill="none" stroke="#4A6B41" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="646.6" y1="420.8" x2="646.1" y2="369.1" stroke="#4A6B41" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="672.5" y1="428.2" x2="672.6" y2="375.8" stroke="#4A6B41" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="722.6" y1="442.6" x2="723.9" y2="388.8" stroke="#4A6B41" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="751.1" y1="450.8" x2="753.0" y2="396.2" stroke="#4A6B41" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M 745.5,419.0 L 745.3,413.1 L 744.3,407.2 L 742.6,401.1 L 740.2,394.9 L 737.0,388.8 L 733.1,382.8 L 728.7,377.0 L 723.6,371.4 L 718.0,366.1 L 711.9,361.1 L 705.5,356.6 L 698.7,352.5 L 691.7,348.9 L 684.5,345.8 L 677.3,343.2 L 670.0,341.2 L 662.8,339.8 L 655.7,339.0 L 648.9,338.8 L 642.3,339.2 L 636.0,340.1 L 630.1,341.6 L 624.7,343.6 L 619.8,346.1 L 615.3,349.1 L 611.4,352.5 L 608.1,356.3 L 605.5,360.5 L 603.4,365.0 L 601.9,369.8 L 601.1,374.9 L 601.0,380.1" fill="none" stroke="#1F1A17" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="602.5" y1="433.0" x2="601.0" y2="380.1" stroke="#1F1A17" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="636.9" y1="443.4" x2="636.1" y2="389.5" stroke="#1F1A17" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="704.5" y1="463.9" x2="705.4" y2="408.2" stroke="#1F1A17" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="743.7" y1="475.7" x2="745.5" y2="419.0" stroke="#1F1A17" stroke-width="3.0" stroke-linecap="round"/>
+  <path d="M 693.6,435.7 L 693.3,431.4 L 692.5,427.0 L 691.1,422.6 L 689.1,418.1 L 686.6,413.6 L 683.6,409.1 L 680.1,404.8 L 676.2,400.6 L 671.9,396.6 L 667.2,392.8 L 662.3,389.3 L 657.1,386.1 L 651.7,383.3 L 646.2,380.8 L 640.6,378.7 L 635.0,377.1 L 629.4,375.8 L 624.0,375.0 L 618.7,374.6 L 613.6,374.7 L 608.7,375.1 L 604.2,376.0 L 600.0,377.3 L 596.1,379.0 L 592.7,381.1 L 589.7,383.4 L 587.1,386.2 L 585.0,389.2 L 583.4,392.4 L 582.3,395.9 L 581.7,399.6 L 581.6,403.5" fill="none" stroke="#9B3B2B" stroke-width="2.6" stroke-linecap="round"/>
+  <line x1="583.7" y1="458.7" x2="581.6" y2="403.5" stroke="#9B3B2B" stroke-width="2.6" stroke-linecap="round"/>
+  <line x1="610.7" y1="467.4" x2="609.2" y2="411.4" stroke="#9B3B2B" stroke-width="2.6" stroke-linecap="round"/>
+  <line x1="663.1" y1="484.4" x2="662.9" y2="426.8" stroke="#9B3B2B" stroke-width="2.6" stroke-linecap="round"/>
+  <line x1="693.0" y1="494.0" x2="693.6" y2="435.7" stroke="#9B3B2B" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M 753.0,396.2 L 745.5,419.0 L 693.6,435.7" fill="none" stroke="#1F1A17" stroke-width="1.7" stroke-dasharray="5,3"/>
+  <circle cx="753.0" cy="396.2" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="745.5" cy="419.0" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="693.6" cy="435.7" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <path d="M 744.2,371.8 L 733.1,382.8 L 683.6,409.1" fill="none" stroke="#1F1A17" stroke-width="1.7" stroke-dasharray="5,3"/>
+  <circle cx="744.2" cy="371.8" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="733.1" cy="382.8" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="683.6" cy="409.1" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <path d="M 719.3,351.0 L 698.7,352.5 L 657.1,386.1" fill="none" stroke="#1F1A17" stroke-width="1.7" stroke-dasharray="5,3"/>
+  <circle cx="719.3" cy="351.0" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="698.7" cy="352.5" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="657.1" cy="386.1" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <path d="M 698.3,343.1 L 670.0,341.2 L 635.0,377.1" fill="none" stroke="#1F1A17" stroke-width="1.7" stroke-dasharray="5,3"/>
+  <circle cx="698.3" cy="343.1" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="670.0" cy="341.2" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="635.0" cy="377.1" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <path d="M 677.8,341.4 L 642.3,339.2 L 613.6,374.7" fill="none" stroke="#1F1A17" stroke-width="1.7" stroke-dasharray="5,3"/>
+  <circle cx="677.8" cy="341.4" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="642.3" cy="339.2" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="613.6" cy="374.7" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <path d="M 654.5,350.1 L 611.4,352.5 L 589.7,383.4" fill="none" stroke="#1F1A17" stroke-width="1.7" stroke-dasharray="5,3"/>
+  <circle cx="654.5" cy="350.1" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="611.4" cy="352.5" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="589.7" cy="383.4" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <path d="M 646.1,369.1 L 601.0,380.1 L 581.6,403.5" fill="none" stroke="#1F1A17" stroke-width="1.7" stroke-dasharray="5,3"/>
+  <circle cx="646.1" cy="369.1" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="601.0" cy="380.1" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+  <circle cx="581.6" cy="403.5" r="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+
+  <rect x="0" y="0" width="1280" height="48" fill="#EFE3C8" stroke="#1F1A17" stroke-width="2"/>
+
+<g transform="translate(10,7)">
+  <rect x="2" y="2.5" width="34" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="34" height="32" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <path d="M9,18 L17,10 L25,18 M12,16 L12,24 L22,24 L22,16" fill="none" stroke="#1F1A17" stroke-width="1.8"/>
+</g>
+<g transform="translate(50,7)">
+  <rect x="2" y="2.5" width="34" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="34" height="32" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <rect x="10" y="9" width="14" height="14" fill="none" stroke="#1F1A17" stroke-width="1.8"/><line x1="13" y1="9" x2="13" y2="14" stroke="#1F1A17" stroke-width="1.6"/>
+</g>
+<g transform="translate(90,7)">
+  <rect x="2" y="2.5" width="34" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="34" height="32" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <path d="M9,12 L15,12 L17,15 L25,15 L25,23 L9,23 Z" fill="none" stroke="#1F1A17" stroke-width="1.8"/>
+</g>
+<line x1="132" y1="10" x2="132" y2="38" stroke="#6A5847" stroke-width="1.5"/>
+<g transform="translate(140,7)">
+  <rect x="2" y="2.5" width="34" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="34" height="32" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <path d="M22,19 C22,14 14,14 11,18 M11,13 L11,18 L16,18" fill="none" stroke="#1F1A17" stroke-width="1.8"/>
+</g>
+<g transform="translate(180,7)">
+  <rect x="2" y="2.5" width="34" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="34" height="32" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <path d="M12,19 C12,14 20,14 23,18 M23,13 L23,18 L18,18" fill="none" stroke="#1F1A17" stroke-width="1.8"/>
+</g>
+<line x1="222" y1="10" x2="222" y2="38" stroke="#6A5847" stroke-width="1.5"/>
+<g transform="translate(230,7)">
+  <rect x="2" y="2.5" width="68" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="68" height="32" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <text x="34.0" y="20.5" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="bold" fill="#1F1A17" text-anchor="middle">Düzen</text>
+</g>
+<g transform="translate(304,7)">
+  <rect x="2" y="2.5" width="82" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="82" height="32" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <text x="41.0" y="20.5" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="bold" fill="#1F1A17" text-anchor="middle">Görünüm</text>
+</g>
+<line x1="394" y1="10" x2="394" y2="38" stroke="#6A5847" stroke-width="1.5"/>
+<g transform="translate(402,7)">
+  <rect x="2" y="2.5" width="114" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="114" height="32" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <text x="57.0" y="20.5" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="bold" fill="#1F1A17" text-anchor="middle">Kalem · 0.08</text>
+</g>
+<g transform="translate(522,7)">
+  <rect x="2" y="2.5" width="98" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="98" height="32" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <text x="49.0" y="20.5" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="bold" fill="#1F1A17" text-anchor="middle">Dışa Aktar</text>
+</g>
+<line x1="628" y1="10" x2="628" y2="38" stroke="#6A5847" stroke-width="1.5"/>
+<g transform="translate(636,7)">
+  <rect x="2" y="2.5" width="36" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="36" height="32" rx="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.8"/>
+  <polygon points="18,10 27,15 18,20 9,15" fill="none" stroke="#1F1A17" stroke-width="1.7"/><polyline points="9,19 18,24 27,19" fill="none" stroke="#1F1A17" stroke-width="1.7"/>
+</g>
+<g transform="translate(678,7)">
+  <rect x="2" y="2.5" width="122" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="122" height="32" rx="4" fill="#E6D7B8" stroke="#1F1A17" stroke-width="1.8"/>
+  <text x="61.0" y="20.5" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="bold" fill="#1F1A17" text-anchor="middle">Fotoğraf Modu</text>
+</g>
+
+  <g transform="translate(1090, 11)">
+    <rect x="0" y="0" width="136" height="26" rx="13" fill="#FAF3E3" stroke="#4A6B41" stroke-width="1.6"/>
+    <circle cx="15" cy="13" r="4.5" fill="#4A6B41"/>
+    <text x="26" y="17" font-family="DejaVu Sans, sans-serif" font-size="11.5" font-weight="bold" fill="#4A6B41">Oto-kayıt güncel</text>
+  </g>
+
+<g transform="translate(1234,7)">
+  <rect x="2" y="2.5" width="34" height="32" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="34" height="32" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <text x="17.0" y="20.5" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="bold" fill="#1F1A17" text-anchor="middle">?</text>
+</g>
+
+  <g transform="translate(12, 62)">
+    <rect x="4" y="5" width="54" height="546" rx="6" fill="#1F1A17" opacity="0.9"/>
+    <rect x="0" y="0" width="54" height="546" rx="6" fill="url(#cardPaper)" stroke="#1F1A17" stroke-width="2.2"/>
+
+<g transform="translate(8,8)">
+  <rect x="2" y="2.5" width="38" height="38" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="38" height="38" rx="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.8"/>
+  <path d="M11,27 L15,26 L27,14 L24,11 L12,23 Z" fill="none" stroke="#1F1A17" stroke-width="2"/>
+  <polygon points="34,34 29,34 34,29" fill="#1F1A17"/>
+</g>
+<g transform="translate(8,52)">
+  <rect x="2" y="2.5" width="38" height="38" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="38" height="38" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <rect x="10" y="10" width="18" height="18" fill="none" stroke="#1F1A17" stroke-width="1.8" stroke-dasharray="3,2"/>
+  <polygon points="34,34 29,34 34,29" fill="#1F1A17"/>
+</g>
+    <line x1="8" y1="98" x2="46" y2="98" stroke="#6A5847" stroke-width="1.2"/>
+<g transform="translate(8,106)">
+  <rect x="2" y="2.5" width="38" height="38" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="38" height="38" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <circle cx="29.5" cy="19.0" r="2.0" fill="#E03C31"/><circle cx="28.1" cy="24.2" r="2.0" fill="#E87D1E"/><circle cx="24.2" cy="28.1" r="2.0" fill="#F2C511"/><circle cx="19.0" cy="29.5" r="2.0" fill="#72B837"/><circle cx="13.8" cy="28.1" r="2.0" fill="#26A65B"/><circle cx="9.9" cy="24.2" r="2.0" fill="#1F9E89"/><circle cx="8.5" cy="19.0" r="2.0" fill="#2288B5"/><circle cx="9.9" cy="13.8" r="2.0" fill="#3A5DAE"/><circle cx="13.7" cy="9.9" r="2.0" fill="#7045AF"/><circle cx="19.0" cy="8.5" r="2.0" fill="#A73E9C"/><circle cx="24.2" cy="9.9" r="2.0" fill="#D13676"/><circle cx="28.1" cy="13.7" r="2.0" fill="#DF364E"/><circle cx="19" cy="19" r="7.2" fill="#1F1A17" stroke="#1F1A17" stroke-width="1.2"/>
+  <polygon points="34,34 29,34 34,29" fill="#1F1A17"/>
+</g>
+<g transform="translate(8,150)">
+  <rect x="2" y="2.5" width="38" height="38" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="38" height="38" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <path d="M12,26 L18,24 L26,16 L22,12 L14,20 Z" fill="none" stroke="#1F1A17" stroke-width="1.8"/>
+</g>
+    <line x1="8" y1="196" x2="46" y2="196" stroke="#6A5847" stroke-width="1.2"/>
+<g transform="translate(8,204)">
+  <rect x="2" y="2.5" width="38" height="38" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="38" height="38" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <polygon points="11,23 19,13 28,20 20,28" fill="none" stroke="#1F1A17" stroke-width="1.8"/>
+</g>
+<g transform="translate(8,248)">
+  <rect x="2" y="2.5" width="38" height="38" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="38" height="38" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <path d="M12,18 L20,10 L27,17 L19,25 Z M27,21 C29,24 29,27 27,27" fill="none" stroke="#1F1A17" stroke-width="1.8"/>
+</g>
+<g transform="translate(8,292)">
+  <rect x="2" y="2.5" width="38" height="38" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="38" height="38" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <polygon points="19,10 28,15 28,25 19,30 10,25 10,15" fill="none" stroke="#1F1A17" stroke-width="1.8"/>
+  <polygon points="34,34 29,34 34,29" fill="#1F1A17"/>
+</g>
+<g transform="translate(8,336)">
+  <rect x="2" y="2.5" width="38" height="38" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="38" height="38" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <line x1="19" y1="9" x2="19" y2="29" stroke="#1F1A17" stroke-width="1.6" stroke-dasharray="2,2"/><polygon points="10,24 16,13 16,24" fill="none" stroke="#1F1A17" stroke-width="1.6"/><polygon points="28,24 22,13 22,24" fill="none" stroke="#1F1A17" stroke-width="1.6"/>
+  <polygon points="34,34 29,34 34,29" fill="#1F1A17"/>
+</g>
+    <line x1="8" y1="382" x2="46" y2="382" stroke="#6A5847" stroke-width="1.2"/>
+<g transform="translate(8,390)">
+  <rect x="2" y="2.5" width="38" height="38" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="38" height="38" rx="4" fill="#B58934" stroke="#1F1A17" stroke-width="1.8"/>
+  <polygon points="9,22 17,13 29,15 21,25" fill="none" stroke="#1F1A17" stroke-width="1.9"/>
+  <polygon points="34,34 29,34 34,29" fill="#1F1A17"/>
+</g>
+<g transform="translate(8,434)">
+  <rect x="2" y="2.5" width="38" height="38" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="38" height="38" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <line x1="11" y1="14" x2="27" y2="14" stroke="#1F1A17" stroke-width="1.8"/><circle cx="16" cy="14" r="2.5" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.5"/><line x1="11" y1="24" x2="27" y2="24" stroke="#1F1A17" stroke-width="1.8"/><circle cx="22" cy="24" r="2.5" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.5"/>
+  <polygon points="34,34 29,34 34,29" fill="#1F1A17"/>
+</g>
+    <line x1="8" y1="480" x2="46" y2="480" stroke="#6A5847" stroke-width="1.2"/>
+<g transform="translate(8,488)">
+  <rect x="2" y="2.5" width="38" height="38" rx="4" fill="#1F1A17"/>
+  <rect x="0" y="0" width="38" height="38" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.8"/>
+  <path d="M24,21 C24,15 15,15 12,19 M12,14 L12,19 L17,19" fill="none" stroke="#1F1A17" stroke-width="1.8"/>
+</g>
+  </g>
+
+  <g transform="translate(76, 260)">
+    <rect x="4" y="5" width="272" height="296" rx="5" fill="#1F1A17" opacity="0.9"/>
+    <rect x="0" y="0" width="272" height="296" rx="5" fill="url(#cardPaper)" stroke="#1F1A17" stroke-width="2.2"/>
+
+    <text x="14" y="25" font-family="DejaVu Serif, serif" font-size="13.5" font-weight="bold" fill="#1F1A17">Çizim Düzlemi &amp; Yapışma</text>
+    <rect x="236" y="9" width="24" height="22" rx="3" fill="#B58934" stroke="#1F1A17" stroke-width="1.4"/>
+    <circle cx="248" cy="20" r="3.5" fill="#1F1A17"/>
+    <line x1="12" y1="36" x2="260" y2="36" stroke="#1F1A17" stroke-width="1.5"/>
+
+    <!-- Plane Presets: Kamera, Zemin XZ, Ön XY, Sağ ZY -->
+    <g transform="translate(14, 46)" font-family="DejaVu Sans, sans-serif" font-size="11.5" font-weight="bold">
+      <rect x="0" y="0" width="116" height="30" rx="3" fill="#E6D7B8" stroke="#1F1A17" stroke-width="1.6"/>
+      <text x="58" y="19" fill="#1F1A17" text-anchor="middle">Kamera</text>
+
+      <rect x="126" y="0" width="118" height="30" rx="3" fill="#E6D7B8" stroke="#1F1A17" stroke-width="1.6"/>
+      <text x="185" y="19" fill="#1F1A17" text-anchor="middle">Zemin XZ</text>
+
+      <rect x="0" y="38" width="116" height="30" rx="3" fill="#B58934" stroke="#1F1A17" stroke-width="1.8"/>
+      <text x="58" y="57" fill="#1F1A17" text-anchor="middle">Ön XY (Aktif)</text>
+
+      <rect x="126" y="38" width="118" height="30" rx="3" fill="#E6D7B8" stroke="#1F1A17" stroke-width="1.6"/>
+      <text x="185" y="57" fill="#1F1A17" text-anchor="middle">Sağ ZY</text>
+    </g>
+
+    <!-- Depth Offset (Shift+Scroll) Row -->
+    <g transform="translate(14, 128)">
+      <text x="0" y="14" font-family="DejaVu Sans, sans-serif" font-size="11.5" font-weight="bold" fill="#6A5847">Derinlik (Shift + Tekerlek):</text>
+      <rect x="166" y="0" width="78" height="22" rx="3" fill="#1F1A17"/>
+      <text x="205" y="15" font-family="DejaVu Sans Mono, monospace" font-size="11" font-weight="bold" fill="#FAF3E3" text-anchor="middle">d = +1.25</text>
+
+      <rect x="0" y="28" width="244" height="8" rx="4" fill="#D4C3A3" stroke="#1F1A17" stroke-width="1.2"/>
+      <rect x="0" y="28" width="162" height="8" rx="4" fill="#9B3B2B"/>
+      <circle cx="162" cy="32" r="6.5" fill="#B58934" stroke="#1F1A17" stroke-width="1.5"/>
+    </g>
+
+    <!-- Surface Tools: Yüzey Seç (P), Yüzey Takibi (F), Yüzey Kilidi (L), Menteşe (H) -->
+    <line x1="14" y1="180" x2="258" y2="180" stroke="#6A5847" stroke-width="1"/>
+    <g transform="translate(14, 190)" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="bold">
+      <rect x="0" y="0" width="116" height="28" rx="3" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.5"/>
+      <text x="58" y="18" fill="#1F1A17" text-anchor="middle">Yüzey Seç (P)</text>
+
+      <rect x="126" y="0" width="118" height="28" rx="3" fill="#B58934" stroke="#1F1A17" stroke-width="1.6"/>
+      <text x="185" y="18" fill="#1F1A17" text-anchor="middle">Yüzey Takibi (F)</text>
+
+      <rect x="0" y="36" width="116" height="28" rx="3" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.5"/>
+      <text x="58" y="54" fill="#1F1A17" text-anchor="middle">Yüzey Kilidi (L)</text>
+
+      <rect x="126" y="36" width="118" height="28" rx="3" fill="#4A6B41" stroke="#1F1A17" stroke-width="1.6"/>
+      <text x="185" y="54" fill="#FAF3E3" text-anchor="middle">Izgara Snap (G)</text>
+    </g>
+  </g>
+
+
+  <g transform="translate(996, 62)">
+    <rect x="4" y="5" width="268" height="286" rx="5" fill="#1F1A17" opacity="0.9"/>
+    <rect x="0" y="0" width="268" height="286" rx="5" fill="url(#cardPaper)" stroke="#1F1A17" stroke-width="2.2"/>
+
+    <text x="14" y="25" font-family="DejaVu Serif, serif" font-size="14" font-weight="bold" fill="#1F1A17">Katmanlar</text>
+    <rect x="172" y="8" width="82" height="24" rx="3" fill="#9B3B2B" stroke="#1F1A17" stroke-width="1.5"/>
+    <text x="213" y="24" font-family="DejaVu Sans, sans-serif" font-size="11.5" font-weight="bold" fill="#FAF3E3" text-anchor="middle">+ Katman</text>
+    <line x1="12" y1="38" x2="256" y2="38" stroke="#1F1A17" stroke-width="1.5"/>
+
+    <g transform="translate(12, 48)" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="bold">
+      <!-- Active Layer -->
+      <rect x="0" y="0" width="244" height="50" rx="4" fill="#E6D7B8" stroke="#9B3B2B" stroke-width="2"/>
+      <circle cx="18" cy="25" r="5.5" fill="#9B3B2B"/>
+      <text x="32" y="21" fill="#1F1A17">Ön Kemer &amp; Payanda</text>
+      <text x="32" y="38" font-family="DejaVu Sans Mono, monospace" font-size="10" fill="#6A5847">Ön XY · d = +1.25 · %100</text>
+
+      <!-- Layer 2 -->
+      <rect x="0" y="58" width="244" height="50" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.5"/>
+      <circle cx="18" cy="83" r="5.5" fill="#B58934"/>
+      <text x="32" y="79" fill="#1F1A17">Ana Kubbe &amp; Rozet</text>
+      <text x="32" y="96" font-family="DejaVu Sans Mono, monospace" font-size="10" fill="#6A5847">Ön XY · d = 0.00 · %100</text>
+
+      <!-- Layer 3 -->
+      <rect x="0" y="116" width="244" height="50" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.5"/>
+      <circle cx="18" cy="141" r="5.5" fill="#4A6B41"/>
+      <text x="32" y="137" fill="#1F1A17">Arka Revak Sütunları</text>
+      <text x="32" y="154" font-family="DejaVu Sans Mono, monospace" font-size="10" fill="#6A5847">Ön XY · d = -1.10 · %100</text>
+
+      <!-- Layer 4 -->
+      <rect x="0" y="174" width="244" height="50" rx="4" fill="#FAF3E3" stroke="#1F1A17" stroke-width="1.5"/>
+      <circle cx="18" cy="199" r="5.5" fill="#1F1A17"/>
+      <text x="32" y="195" fill="#1F1A17">3B Tonoz Kaburgaları</text>
+      <text x="32" y="212" font-family="DejaVu Sans Mono, monospace" font-size="10" fill="#6A5847">Köprü Çizgileri · %100</text>
+    </g>
+  </g>
+
+  <!-- Bottom-Right 3D XYZ Orientation Gizmo (orientation.rs) -->
+  <g transform="translate(1206, 666)">
+    <circle cx="0" cy="0" r="46" fill="#FAF3E3" fill-opacity="0.92" stroke="#1F1A17" stroke-width="2"/>
+    <line x1="0" y1="0" x2="28" y2="10" stroke="#9B3B2B" stroke-width="2.8"/>
+    <circle cx="31" cy="11" r="8" fill="#9B3B2B" stroke="#1F1A17" stroke-width="1.3"/>
+    <text x="31" y="15" font-family="DejaVu Sans Mono, monospace" font-size="10" font-weight="bold" fill="#FAF3E3" text-anchor="middle">X</text>
+
+    <line x1="0" y1="0" x2="0" y2="-30" stroke="#4A6B41" stroke-width="2.8"/>
+    <circle cx="0" cy="-33" r="8" fill="#4A6B41" stroke="#1F1A17" stroke-width="1.3"/>
+    <text x="0" y="-29" font-family="DejaVu Sans Mono, monospace" font-size="10" font-weight="bold" fill="#FAF3E3" text-anchor="middle">Y</text>
+
+    <line x1="0" y1="0" x2="-24" y2="16" stroke="#B58934" stroke-width="2.8"/>
+    <circle cx="-27" cy="18" r="8" fill="#B58934" stroke="#1F1A17" stroke-width="1.3"/>
+    <text x="-27" y="22" font-family="DejaVu Sans Mono, monospace" font-size="10" font-weight="bold" fill="#1F1A17" text-anchor="middle">Z</text>
+    <circle cx="0" cy="0" r="4" fill="#1F1A17"/>
+  </g>
+</svg>
