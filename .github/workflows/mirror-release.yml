@@ -1,0 +1,74 @@
+name: Mirror release from dimenced-core
+
+# Private kod deposu KaanAlper/dimenced-core'da çıkan release'i (APK/AAB, Windows, macOS, Linux)
+# bu tanıtım reposunda aynı etiketle yayınlar. Saatlik tarama + elle tetikleme + repository_dispatch.
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Aynalanacak etiket (boş = dimenced-core son release)"
+        type: string
+        default: ""
+  repository_dispatch:
+    types: [core-release]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror-release
+  cancel-in-progress: false
+
+env:
+  SRC_REPO: KaanAlper/dimenced-core
+  # Fine-grained PAT: dimenced-core -> Contents: Read-only. Secret adı: CORE_READ_TOKEN
+  SRC_TOKEN: ${{ secrets.CORE_READ_TOKEN }}
+  GH_TOKEN: ${{ github.token }}
+
+jobs:
+  mirror:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Kaynak release'i belirle
+        id: src
+        run: |
+          set -euo pipefail
+          if [ -z "${SRC_TOKEN:-}" ]; then
+            echo "CORE_READ_TOKEN secret'ı tanımlı değil." >&2; exit 1
+          fi
+          TAG="${{ inputs.tag || github.event.client_payload.tag || '' }}"
+          if [ -z "$TAG" ]; then
+            TAG=$(GH_TOKEN="$SRC_TOKEN" gh release view --repo "$SRC_REPO" --json tagName -q .tagName)
+          fi
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          if gh release view "$TAG" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "$TAG zaten aynalanmış."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Varlıkları indir
+        if: steps.src.outputs.skip != 'true'
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          GH_TOKEN="$SRC_TOKEN" gh release download "${{ steps.src.outputs.tag }}" \
+            --repo "$SRC_REPO" --dir assets
+          ls -lh assets
+
+      - name: Tanıtım reposunda release oluştur
+        if: steps.src.outputs.skip != 'true'
+        run: |
+          set -euo pipefail
+          TAG="${{ steps.src.outputs.tag }}"
+          NOTES=$(GH_TOKEN="$SRC_TOKEN" gh release view "$TAG" --repo "$SRC_REPO" --json body -q .body)
+          # Play paketi (.aab) mağaza içindir; herkese açık indirmeye konmaz.
+          rm -f assets/Dimenced-play.aab assets/Dimenced-play.aab.sha256
+          gh release create "$TAG" assets/* \
+            --repo "${{ github.repository }}" \
+            --title "Dimenced $TAG" \
+            --notes "$NOTES" \
+            --latest
