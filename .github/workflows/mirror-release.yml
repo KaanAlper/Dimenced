@@ -52,8 +52,9 @@ jobs:
           mkdir -p assets
           # Kaynakta olup burada henüz olmayan dosyalar (macOS/Linux işleri sonradan biter).
           GH_TOKEN="$SRC_TOKEN" gh release view "$TAG" --repo "$SRC_REPO" --json assets -q '.assets[].name' | sort > src.txt
-          # Play paketi mağaza içindir; herkese açık indirmeye konmaz.
-          grep -v '^Dimenced-play\.aab' src.txt > src_public.txt || true
+          # Yalnızca APK ve masaüstü kurucuları (Windows .exe, macOS .dmg, Linux .AppImage/.tar.gz).
+          # Play paketi (.aab), sağlama dosyaları ve .zip kopyalanmaz.
+          grep -E '\.(apk|exe|dmg|AppImage)$|\.tar\.gz$' src.txt > src_public.txt || true
           if gh release view "$TAG" --repo "${{ github.repository }}" >/dev/null 2>&1; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
             gh release view "$TAG" --repo "${{ github.repository }}" --json assets -q '.assets[].name' | sort > dst.txt
