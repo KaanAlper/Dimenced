@@ -43,32 +43,45 @@ jobs:
             TAG=$(GH_TOKEN="$SRC_TOKEN" gh release view --repo "$SRC_REPO" --json tagName -q .tagName)
           fi
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
-          if gh release view "$TAG" --repo "${{ github.repository }}" >/dev/null 2>&1; then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "$TAG zaten aynalanmış."
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-          fi
 
-      - name: Varlıkları indir
-        if: steps.src.outputs.skip != 'true'
-        run: |
-          set -euo pipefail
-          mkdir -p assets
-          GH_TOKEN="$SRC_TOKEN" gh release download "${{ steps.src.outputs.tag }}" \
-            --repo "$SRC_REPO" --dir assets
-          ls -lh assets
-
-      - name: Tanıtım reposunda release oluştur
-        if: steps.src.outputs.skip != 'true'
+      - name: Eksik varlıkları indir
+        id: assets
         run: |
           set -euo pipefail
           TAG="${{ steps.src.outputs.tag }}"
-          NOTES=$(GH_TOKEN="$SRC_TOKEN" gh release view "$TAG" --repo "$SRC_REPO" --json body -q .body)
-          # Play paketi (.aab) mağaza içindir; herkese açık indirmeye konmaz.
-          rm -f assets/Dimenced-play.aab assets/Dimenced-play.aab.sha256
-          gh release create "$TAG" assets/* \
-            --repo "${{ github.repository }}" \
-            --title "Dimenced $TAG" \
-            --notes "$NOTES" \
-            --latest
+          mkdir -p assets
+          # Kaynakta olup burada henüz olmayan dosyalar (macOS/Linux işleri sonradan biter).
+          GH_TOKEN="$SRC_TOKEN" gh release view "$TAG" --repo "$SRC_REPO" --json assets -q '.assets[].name' | sort > src.txt
+          # Play paketi mağaza içindir; herkese açık indirmeye konmaz.
+          grep -v '^Dimenced-play\.aab' src.txt > src_public.txt || true
+          if gh release view "$TAG" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            gh release view "$TAG" --repo "${{ github.repository }}" --json assets -q '.assets[].name' | sort > dst.txt
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            : > dst.txt
+          fi
+          comm -23 src_public.txt dst.txt > missing.txt
+          echo "Eksik: $(wc -l < missing.txt) dosya"
+          cat missing.txt
+          while read -r name; do
+            [ -n "$name" ] || continue
+            GH_TOKEN="$SRC_TOKEN" gh release download "$TAG" --repo "$SRC_REPO" --dir assets --pattern "$name"
+          done < missing.txt
+          echo "count=$(wc -l < missing.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Tanıtım reposunda release oluştur / tamamla
+        if: steps.assets.outputs.count != '0'
+        run: |
+          set -euo pipefail
+          TAG="${{ steps.src.outputs.tag }}"
+          if [ "${{ steps.assets.outputs.exists }}" = "true" ]; then
+            gh release upload "$TAG" assets/* --repo "${{ github.repository }}" --clobber
+          else
+            NOTES=$(GH_TOKEN="$SRC_TOKEN" gh release view "$TAG" --repo "$SRC_REPO" --json body -q .body)
+            gh release create "$TAG" assets/* \
+              --repo "${{ github.repository }}" \
+              --title "Dimenced $TAG" \
+              --notes "$NOTES" \
+              --latest
+          fi
